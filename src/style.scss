@@ -1,0 +1,47 @@
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+}
+
+a {
+  color: #aaff00;
+  text-decoration: none;
+}
+button {
+  border: none;
+  transition: all linear 0.3s;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(1.1);
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #3f3f3f;
+}
